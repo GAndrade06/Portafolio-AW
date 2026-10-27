@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Bubbler";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Spirax";
+    src: url(../font/Spirax-Regular.ttf);
+} 
+
+
+body{
+    font-family: Spirax,cursive;
+}
+.logotipo{
+    width: 75px;
+
+}
+
+.nav-link{
+    color: rgba(118, 255, 148, 0.966);
+}
+.nav-link:hover{
+    color: rgb(124, 235, 241);
+
+}
+
+
+#quien{
+    margin-top: 75px;
+    font-family: Chilanka, cursive;
+}
+
+
+
+#menu_media{
+background-color: #1a23d2ea;
+font-family: Blubber, cursive;
+}
+
+#proyectos{
+    font-family: Blubber,cursive;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px #4f42e0;
+   
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover; /* ---  controla cómo se comporta una imagen cuando la obligas a medir algo fijo --- */
+ 
+ }
+      
+/*---- FOOTER ----*/
+    footer{
+        background-color: #000;
+        padding: 20px 50px 0px;
+    }
+
+    #redes, #derechos{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        #derechos{
+            font-size: 1rem;
+            font-family: Chilanka, cursive;
+            color: #fff;
+            text-align: right;
+        }
+
+        #redes a{
+            font-family: redes, cursive;
+            
+        }
+
+  #mapa {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

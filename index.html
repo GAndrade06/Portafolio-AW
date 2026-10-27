@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="iconos/favicon (1).ico">
+
+    <title>MiPortafolio</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-black navbar-dark py-0 fixed-top">
+        <nav class="container">
+           <a class="navbar-brand" href="#">
+                <img src="imagenes/logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo">
+                Bienvenidos a mi portafolio.
+          </a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="#quien">¿Quién soy?</a>
+        <a class="nav-link" href="#filosofia">Conóceme</a>
+        <a class="nav-link" href="#gustos">Mis Gustos</a>
+        <a class="nav-link" href="#proyectos">Mis Proyectos</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+   <section id="quien" class="container py-5">
+        <div class="row">
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0">
+                <img src="imagenes/usuario.jpg" alt="usuario" class="img-fluid border-start border-end border-2 border-warning">
+            </figure>
+
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-end pt-lg-5">
+                <h1 class="display-4 fw-bold text-primary-emphasis text-lg-start">¿Quién soy?</h1>
+                <p id="parrafo" class="collapse d-lg-block"> ¡Hola! Soy Diana Andrade, tengo 20 años. Actualmente soy estudiante de Entornos Virtuales y Negocios Digitales. En estos pocos meses he conocido variedad de herramientas que me han ayudado en mi formación, he logrado explorar mi creatividad más a fondo y aprender muchisimas cosas. Podrás ver algunos de mis trabajos que he realizado y acercarte un poco más a lo que se ve en mi especialidad..</p>
+                 <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Leer más...
+                </a>
+            </article>
+        </div>
+    </section>
+
+      <section id="filosofia" class="text-bg-dark text-center text-light py-5">
+<article class="container">
+    <p class="fs-2">"Nunca dejes de sentir curiosidad por todo. El mundo qu enos rodea es muy curioso, y todavía hay infinidad de cosas que puedes aprender. Aprende a ser un eterno aprendiz del mundo".</p>
+    <span class="h5 fst-italic"> - Diana Andrade -</span>
+</article>
+    </section>
+
+         <section class="text-bg-primary text-center text-light py-5" id="gustos">
+            <h2 class="text-center mb-5 display-5 fw-bold text-dark">Mis Gustos e Intereses</h2>
+            
+            <section class="row g-4">
+                <!-- CARTA 1: MÚSICA FAVORITA -->
+                <article class="col-lg-4 col-md-6">
+                    <fieldset class="card h-100 shadow-sm border-0 bg-light text-center p-3">
+                        <legend class="card-body m-0">
+                            <i class="fa-solid fa-music fa-3x text-danger mb-3"></i>
+                            <h4 class="card-title text-dark">Mi Música</h4>
+                            <p class="card-text text-muted small">Bandas y canciones.</p>
+                            <!-- Reproductor de Audio Requerido -->
+                            <audio src="medios/audio/Cuarteto-de-Nos-Camello-patagónico-Cuarteto-de-Nos-_128k_.mp3" controls class="w-100 mt-3 shadow-sm rounded"></audio>
+                            <audio src="medios/audio/AURORA - The Seed.mp3" controls class="w-100 mt-3 shadow-sm rounded"></audio>
+
+                        </legend>
+                    </fieldset>
+                </article>
+
+                <!-- CARTA 2: VIDEOJUEGOS -->
+                <article class="col-lg-4 col-md-6">
+                    <fieldset class="card h-100 shadow-sm border-0 bg-light text-center p-3">
+                        <legend class="card-body m-0">
+                            <i class="fa-solid fa-gamepad fa-3x text-primary mb-3"></i>
+                            <h4 class="card-title text-dark">Videojuegos</h4>
+                            <p class="card-text text-muted small">Mundos donde me gusta perderme por horas.</p>
+                            <!-- Reproductor de Video de YouTube -->
+                            <figure class="ratio ratio-16x9 mt-3 border rounded overflow-hidden shadow-sm m-0">
+                                <iframe src="https://www.youtube.com/embed/HoYtngSD8ak?si=f2dVTCDsiFV52D6j" title="YouTube video player" allowfullscreen></iframe>
+                            </figure>
+                        </legend>
+                    </fieldset>
+                </article>
+
+                <!-- CARTA 3: LIBROS -->
+                <article class="col-lg-4 col-md-12">
+                    <fieldset class="card h-100 shadow-sm border-0 bg-light text-center p-3">
+                        <legend class="card-body m-0">
+                            <i class="fa-solid fa-book-open fa-3x text-success mb-3"></i>
+                            <h4 class="card-title text-dark">Libros.</h4>
+                            <p class="card-text text-muted small">Lecturas favoritas.>
+                           
+                            <figure class="ratio ratio-16x9 mt-3 border rounded overflow-hidden shadow-sm m-0">
+                                <img src="imagenes/trilogia.jpg" id="promo" controls poster="image/trilogia"></img>
+                            </figure>
+                        </legend>
+                    </fieldset>
+                </article>
+            </section>
+        </section>
+
+        <!--- CARRUSEL - Pendiente-->
+ 
+<!--- Tarjeta 1-->
+
+
+    <section id="proyectos" class="py-5 container">
+        <h1 class="display-4 fw-bold text-center text-danger">Mis Proyectos</h1>
+        <div class="row g-4 justify-content-center">
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3">
+                <div class="card">
+                    <img src="imagenes/Render perfil.png" class="card-img-top" alt="Realidad Virtual">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center">Modelado 3D</h5>
+                        <p class="card-text d-none d-lg-block text-center"> Se utiliza el programa de Blender, ahí se realizan todos los modelados</p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver proyecto...</a>
+                    </div>
+                </div>
+            </article>
+
+<!--- Tarjeta 2 -->
+       
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+                <div class="card">
+                    <img src="imagenes/CartelPublicitario_PérezDiana_Act7.png" class="card-img-top" alt="Ciberseguridad">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center">Diseño Digital</h5>
+                        <p class="card-text d-none d-lg-block text-center">Utilizamos diversos programas como PhotoShop, Adobe Illustrator, Figma y Audacity</p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_dg">Ver proyecto...</a>
+                    </div>
+                </div>
+            </article>
+
+<!--- Tarjeta 3 -->
+
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+                <div class="card">
+                    <video src="medios/video/Remedial Unidad 1 (1).mp4" class="card-img-top" alt="Aplicaciones Web"></video>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-start text-lg-center">Animación 2D</h5>
+                        <p class="card-text d-none d-lg-block text-center">Esta animación se realizó en Blender 2d, la post producción se realizó en CapCut.</p>
+                        <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_ad">Ver proyecto...</a>
+                    </div>
+                </div>
+            </article>
+
+<footer class="container-fluid bg-black text-light text-center">
+  <section id="redes">
+                <a href="https://www.facebook.com" class="icono">N</a>
+                <a href="https://www.instragram.com" class="icono">A</a>
+                <a href="https://www.youtube.com" class="icono">I</a>
+            </section>
+        <p class="py-3 h5">Copyright 2026 - Diana Gabriela Pérez Andrade</p>
+    </footer>
+
+ <!-- VENTANAS MODALES -->
+
+<!-- Modelado 3D -->
+<div class="modal fade" id="proy_rv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Modelado 3D</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Se utiliza el programa de Blender, ahí se realizan todos los modelados
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Diseño Digital-->
+<div class="modal fade" id="proy_dg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Diseño Digital</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Utilizamos diversos programas como PhotoShop, Adobe Illustrator, Figma y Audacity.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Animación 2D -->
+<div class="modal fade" id="proy_ad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Animación 2D</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Esta animación se realizó en Blender 2d, la post producción se realizó en CapCut..
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
